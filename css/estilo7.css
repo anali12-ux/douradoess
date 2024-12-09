@@ -1,0 +1,107 @@
+body{
+    background-color: #ffd857;
+    font-size: 20px;
+}
+p{
+    color: white;
+}
+header{
+    background-color: #f6ce5e;
+    height: 40px;
+    padding-top: 5px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 150px;
+}
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style: none;
+    background-color: #ffffff;
+}
+a{
+    color: #816313;
+}
+.perfumeuna{
+    display: flex;
+}
+.img{
+    width: 400px;
+    padding: 25px;
+    gap: 100px;
+    border-radius: 50px;
+
+}
+.rodape{
+    background-color: #ffffff;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.rodape img{
+    width: 150px;
+    align-self: flex-end;
+}
+.containerrodape{
+    text-align: center;
+}
+.rodape p{
+    color: black;
+}
+.imgmenor{
+    width: 50px;
+    display: flex;
+    border-style: solid;
+    border-color: #ffffff;
+    border-width: 3px;
+}
+.imgmenor1{
+    width: 50px;
+    display: flex;
+    border-style: solid;
+    border-color: #d3a816;
+    border-width: 3px;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.infoperfume {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    border-radius: 50px;
+}
+.infoperfume p {
+    color: #000000;
+}
+.nomeperfum,
+.precoperf,
+.juros{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #d3a816;
+}
+.titulo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #bd9322;
+}
+
+.imglogo img {
+    width: 80px;
+    height: 80px;
+}
+.imglogo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+}
